@@ -2,6 +2,7 @@
 FROM nginx:latest
 
 
+
 # set maintainer
 LABEL maintainer "ersagunyalcintepe@gmail.com"
 COPY . /usr/share/nginx/html/
