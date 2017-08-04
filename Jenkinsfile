@@ -14,4 +14,5 @@ node("docker") {
         app.push 'master'
         app.push "${commit_id}"
     }
+
 }
